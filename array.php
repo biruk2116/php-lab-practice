@@ -50,5 +50,9 @@ echo substr($thirdString, 0,23);
 
 
 
-
+$x = 1;
+do {
+  echo "Number: $x <br>";
+  $x++;
+} while ($x <= 5);
 
