@@ -2,7 +2,7 @@
 
 // 1. sort() - Sort indexed array in ascending order
 $numbers = [4, 2, 8, 6, 1];
-sort($numbers); // Ascending sort
+ sort($numbers); // Ascending sort
 echo "sort(): ";
 print_r($numbers);
 echo "<br>";

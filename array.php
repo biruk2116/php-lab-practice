@@ -1,7 +1,7 @@
 <?php 
 
 $age=["peter"=>33,
-      "Age"=>29];
+      "bura"=>29];
 
       foreach($age as $key=>$value){
         // echo $key.":" .$value
