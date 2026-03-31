@@ -13,6 +13,8 @@
     Message: <textarea name="message" required></textarea><br><br>
 
     <button type="submit">Submit</button>
+    <br><br>
+<a href="view.php">View Saved Data</a>
 </form>
 
 </body>
