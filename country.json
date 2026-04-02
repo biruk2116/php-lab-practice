@@ -1,0 +1,39 @@
+{
+    "data": [
+        {
+           "name": {"common": "Ethiopia"},
+            "capital": [ "Addis Ababa" ],
+            "region": "Africa",
+            "population": 114963588,
+            "area": 1104300
+        },
+        {
+           "name": {"common": "Kenya"},
+            "capital": [ "Nairobi" ],
+            "region": "Africa",
+            "population": 53771296,
+            "area": 580367
+        },
+        {
+           "name": {"common": "Nigeria"},
+            "capital": [ "Abuja" ],
+            "region": "Africa",
+            "population": 206139589,
+            "area": 923768
+        },
+        {
+           "name": {"common": "South Africa"},
+            "capital": [ "Pretoria" ],
+            "region": "Africa",
+            "population": 59308690,
+            "area": 1221037
+        },
+        {
+           "name": {"common": "Egypt"},
+            "capital": [ "Cairo" ],
+            "region": "Africa",
+            "population": 102334404,
+            "area": 1002450
+        }
+    ]
+}
