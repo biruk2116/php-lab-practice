@@ -1,10 +1,9 @@
-
-    {
-  "name": "Bubu",
-  "age": 22,
-  "city": "Gonder"
+{
+    "name": "hana",
+    "age": 23,
+    "isstudent": true,
+    "course": [
+        "IP",
+        "DB"
+    ]
 }
-
-
-    
-
