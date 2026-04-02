@@ -1,9 +1,8 @@
 <?php
 
-// Read JSON file
+
 $jsonData = file_get_contents("country.json");
 
-// Convert JSON to PHP array
 $data = json_decode($jsonData, true);
 
 ?>
@@ -47,7 +46,7 @@ $data = json_decode($jsonData, true);
         </tr>
 
         <?php
-        // Loop through data
+       
         for ($i = 0; $i < count($data["data"]); $i++) {
 
             $country = $data["data"][$i];
