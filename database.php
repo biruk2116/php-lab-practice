@@ -4,7 +4,7 @@ $db_server = "localhost";
 $db_user   = "root";
 $db_pass   = "";
 $db_name   = "bubu";
-$db_port   = 3307;
+$db_port   = 3306;
 
 $conn = "";
 
