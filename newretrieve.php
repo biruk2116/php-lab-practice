@@ -8,8 +8,17 @@
     <th>GENDER</th>
 </tr>
 
+<?php
+$result =$conn->query("SELECT * FROM stud");
 
-
-
+while ($row =$result->fetch_assoc()){
+    echo "<tr>
+    <td>".htmlspecialchars($row['id'])."</td>
+    <td>".htmlspecialchars($row['name'])."</td>
+    <td>".htmlspecialchars($row['age'])."</td>
+    <td>".htmlspecialchars($row['gender'])."</td>
+    </tr>";
+}
+?>
 
 </table>
