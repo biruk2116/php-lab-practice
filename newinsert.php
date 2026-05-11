@@ -16,6 +16,10 @@ if (isset($_POST['submit'])){
     $gender = $_POST['gender'];
 }
 // prepared statement
+$stmt = $conn->prepare("INSERT INTO stud VALUES (?,?,?,?)");
+
+$stmt->bind_param("siss",$id,$name,$age,$gender);
+$stmt->execute();
+echo "student inserted successfully!";
 
 ?>
-
